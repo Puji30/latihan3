@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Biodata</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="images/logo undiksha.png" width="100">
+            </div>
+            <nav class="nav">
+                <h1>
+                    Selamat Datang
+                </h1>
+                <h4>
+                    Sistem Informasi Pendataan Karyawan
+                </h4>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="wrapper">
+    <aside class="sidebar">
+        <div style="padding: 10px;">
+            <b>Menu</b><br>
+            <hr>
+            <a href="#">Home</a><br />
+            <a href="#">Data Karyawan</a><br />
+            <a href="#">Update Biodata Karyawan</a><br />
+            <a href="#">Help</a><br />
+        </div>
+    </aside>
+    <main class="content">
+        <div style="padding: 10px;">
+            <h4 style="margin: 0px;">Update Biodata Karyawan</h4>
+            <hr/>
+            <form actions=" " method="POST">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" placeholder="Tuliskan Nama Anda" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td><input type="password" name="password" placeholder="Masukkan Password" /></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>
+                    <input type="radio" name="jenis kelamin" value="laki-laki" /> Laki-Laki
+                    <input type="radio" name="jenis kelamin" value="perempuan" checked /> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>:</td>
+                        <td>
+                            <input type="checkbox" name="hobi_nyanyi" checked/> Menyanyi
+                            <input type="checkbox" name="hobi_renang" /> Berenang
+                            <input type="checkbox" name="hobi_masak" checked/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Asal Kota</td>
+                        <td>:</td>
+                        <td>
+                            <select name="asal kota"/>
+                            <option value="Kota Denpasar"> Denpasar</option>
+                            <option value="Kota Singaraj" selected> Singaraja</option>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Komentar</td>
+                        <td>:</td>
+                        <td><textarea name="komentar" rows="5" cols="20"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right"><input type="submit" value="Simpan"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+    </div>
+    <footer class="footer">
+        <font color="white">2020 Copyright &#169; puji30</white>
+    </footer>
+    </div>
+</body>
+</html>
